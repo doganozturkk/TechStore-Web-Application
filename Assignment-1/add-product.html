@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Product - TechStore</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Add Product</h1>
+      <p class="subtitle">Add a new item to the online store</p>
+    </div>
+  </header>
+
+  <nav>
+    <div class="container">
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="categories.html">Categories</a></li>
+        <li><a href="details.html">Product Details</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="add-product.html" class="active">Add Product</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container">
+    <section class="form-section">
+      <h2>Add a New Product</h2>
+
+      <form class="product-form">
+        <label for="name">Product Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" rows="5" required></textarea>
+
+        <label for="price">Price (€):</label>
+        <input type="number" id="price" name="price" min="1" required>
+
+        <label for="category">Category:</label>
+        <select id="category" name="category" required>
+          <option value="">Select a category</option>
+          <option>Laptops</option>
+          <option>Smartphones</option>
+          <option>Audio</option>
+          <option>Accessories</option>
+        </select>
+
+        <label for="supplier">Supplier:</label>
+        <select id="supplier" name="supplier" required>
+          <option value="">Select a supplier</option>
+          <option>TechSupplier Ltd.</option>
+          <option>Digital World Inc.</option>
+          <option>Smart Devices Co.</option>
+        </select>
+
+        <label>Product Condition:</label>
+        <div class="radio-group">
+          <label><input type="radio" name="condition" value="new" required> New</label>
+          <label><input type="radio" name="condition" value="used"> Used</label>
+        </div>
+
+        <label>Additional Features:</label>
+        <div class="checkbox-group">
+          <label><input type="checkbox" name="feature1"> Free Shipping</label>
+          <label><input type="checkbox" name="feature2"> Warranty Included</label>
+          <label><input type="checkbox" name="feature3"> Discount Available</label>
+        </div>
+
+        <label for="purchase-date">Last Purchase Date:</label>
+        <input type="date" id="purchase-date" name="purchase-date">
+
+        <label class="confirm-label">
+          <input type="checkbox" required> I confirm that the product information is correct.
+        </label>
+
+        <button type="submit">Add Product</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 TechStore</p>
+      <p>Contact: info@techstore.com</p>
+    </div>
+  </footer>
+
+</body>
+</html>
