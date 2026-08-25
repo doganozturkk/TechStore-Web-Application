@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechStore Online Shop</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1 class="display-5 fw-bold mb-2">TechStore</h1>
+      <p class="subtitle lead mb-0">The best electronics online shop</p>
+
+      <!-- ✅ DATE & TIME + COUNTDOWN -->
+      <div class="alert alert-secondary mt-3">
+        <b>📅 Current Time:</b> <span id="dateTime">Loading...</span><br>
+        <b>⏳ Happy Hour Ends In:</b> <span id="countdown">Loading...</span>
+      </div>
+    </div>
+  </header>
+
+  <nav class="navbar navbar-expand-lg navbar-dark custom-navbar sticky-top">
+    <div class="container">
+      <a class="navbar-brand d-lg-none fw-bold" href="index.html">TechStore</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbarIndex">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNavbarIndex">
+        <ul class="navbar-nav mx-auto menu">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Pages</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="categories.html">Categories</a></li>
+              <li><a class="dropdown-item" href="details.html">Product Details</a></li>
+              <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>
+              <li><a class="dropdown-item" href="add-product.html">Add Product</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item"><a class="nav-link" href="categories.html">Categories</a></li>
+          <li class="nav-item"><a class="nav-link" href="details.html">Product Details</a></li>
+          <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="add-product.html">Add Product</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container my-4">
+
+    <div class="alert alert-info alert-dismissible fade show shadow-sm rounded-3 mb-4">
+      <strong>Welcome!</strong> Explore our featured products.
+      <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+
+    <!-- HERO -->
+    <section class="hero-section mb-4">
+      <h2 class="h2 fw-bold">Welcome to TechStore</h2>
+      <p class="fs-5">
+        <b>TechStore</b> is your trusted online destination for the latest and most reliable
+        <i>technology products</i>.
+      </p>
+      <hr>
+    </section>
+
+    <section class="data-section mb-4">
+  <h2 class="h2 fw-bold">Stored Data Files</h2>
+  <p>
+    Below are the temporary TXT files that simulate the prepared data for the online store:
+  </p>
+
+  <ul class="data-list list-group list-group-flush mb-3">
+    <li class="list-group-item bg-transparent px-0 border-0">
+      <a href="items.txt" target="_blank" class="link-primary fw-semibold text-decoration-none">
+        📄 View items.txt
+      </a>
+    </li>
+    <li class="list-group-item bg-transparent px-0 border-0">
+      <a href="suppliers.txt" target="_blank" class="link-primary fw-semibold text-decoration-none">
+        📄 View suppliers.txt
+      </a>
+    </li>
+  </ul>
+
+  <p>
+    These files contain pre-prepared product and supplier data used as a basis for the project plan.
+  </p>
+</section>
+
+<section class="best-seller-highlight mb-4">
+  <h2 class="h2 fw-bold">Best Seller Products</h2>
+  <p class="mb-4">
+    Discover the most popular products chosen by our customers.
+  </p>
+
+  <div class="row g-4 highlight-cards">
+
+    <div class="col-12 col-md-6 col-lg-4">
+      <article class="highlight-card h-100">
+        <img src="laptop.jpg" alt="Gaming Laptop" class="img-fluid rounded">
+        <h3 class="h4 mt-3">Gaming Laptop</h3>
+        <p>High performance laptop for gaming, work, and multitasking.</p>
+        <a href="details.html#gaming-laptop-details" class="details-btn btn btn-primary">
+          View Details
+        </a>
+      </article>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-4">
+      <article class="highlight-card h-100">
+        <img src="phone.jpg" alt="Smartphone X" class="img-fluid rounded">
+        <h3 class="h4 mt-3">Smartphone X</h3>
+        <p>Powerful smartphone with an excellent camera and long battery life.</p>
+        <a href="details.html#smartphone-x-details" class="details-btn btn btn-primary">
+          View Details
+        </a>
+      </article>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-4">
+      <article class="highlight-card h-100">
+        <img src="headphones.jpg" alt="Wireless Headphones" class="img-fluid rounded">
+        <h3 class="h4 mt-3">Wireless Headphones</h3>
+        <p>Premium sound quality with modern wireless comfort.</p>
+        <a href="details.html#wireless-headphones-details" class="details-btn btn btn-primary">
+          View Details
+        </a>
+      </article>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-4">
+      <article class="highlight-card h-100">
+        <img src="watch.jpg" alt="Smart Watch" class="img-fluid rounded">
+        <h3 class="h4 mt-3">Smart Watch</h3>
+        <p>Track your fitness and stay connected with this sleek smartwatch.</p>
+        <a href="details.html#smart-watch-details" class="details-btn btn btn-primary">
+          View Details
+        </a>
+      </article>
+    </div>
+
+  </div>
+</section>
+
+<!-- ✅ TECHSTORE PREMIUM -->
+<section class="premium-section mt-5">
+
+  <div class="premium-card">
+
+    <div class="premium-header text-center mb-4">
+      <h2 class="premium-title">
+        ⚡ TechStore Premium Club
+      </h2>
+
+      <p class="premium-subtitle">
+        Calculate your premium membership plan and unlock exclusive benefits.
+      </p>
+    </div>
+
+    <form id="membershipForm" class="row g-4 align-items-end">
+
+      <!-- PLAN -->
+      <div class="col-lg-4">
+        <label class="form-label premium-label">
+          Select Membership Plan
+        </label>
+
+        <select id="membershipType" class="form-select premium-input">
+          <option value="monthly">Monthly Plan</option>
+          <option value="yearly">Yearly Plan</option>
+          <option value="premium">Ultimate Premium</option>
+        </select>
+      </div>
+
+      <!-- DURATION -->
+      <div class="col-lg-4">
+        <label class="form-label premium-label">
+          Subscription Duration
+        </label>
+
+        <input
+          type="number"
+          id="duration"
+          class="form-control premium-input"
+          placeholder="Enter duration"
+        >
+      </div>
+
+      <!-- BUTTON -->
+      <div class="col-lg-4">
+        <button class="btn premium-btn w-100">
+          Calculate Membership
+        </button>
+      </div>
+
+    </form>
+
+    <!-- BENEFITS -->
+    <div class="premium-benefits row mt-4">
+
+      <div class="col-md-4">
+        <div class="benefit-box">
+          🚚 Free Fast Delivery
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="benefit-box">
+          💸 Exclusive Discounts
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="benefit-box">
+          🎁 Reward Points
+        </div>
+      </div>
+
+    </div>
+
+    <!-- RESULT -->
+    <div class="premium-result mt-4">
+      <p id="membershipResult" class="mb-0"></p>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="table-section mb-4">
+  <h2 class="h2 fw-bold">Best Selling Products Table</h2>
+
+  <div class="table-responsive">
+    <table class="table table-striped table-hover table-bordered align-middle">
+
+      <thead class="table-dark">
+        <tr>
+          <th>Product</th>
+          <th>Price</th>
+          <th>Category</th>
+          <th>Details</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Gaming Laptop</td>
+          <td>1200€</td>
+          <td>Laptops</td>
+          <td>
+            <a href="details.html#gaming-laptop-details" class="details-btn small-btn btn btn-sm btn-outline-primary">
+              Details
+            </a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Wireless Headphones</td>
+          <td>200€</td>
+          <td>Audio</td>
+          <td>
+            <a href="details.html#wireless-headphones-details" class="details-btn small-btn btn btn-sm btn-outline-primary">
+              Details
+            </a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Smartphone X</td>
+          <td>900€</td>
+          <td>Smartphones</td>
+          <td>
+            <a href="details.html#smartphone-x-details" class="details-btn small-btn btn btn-sm btn-outline-primary">
+              Details
+            </a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Smart Watch</td>
+          <td>250€</td>
+          <td>Accessories</td>
+          <td>
+            <a href="details.html#smart-watch-details" class="details-btn small-btn btn btn-sm btn-outline-primary">
+              Details
+            </a>
+          </td>
+        </tr>
+      </tbody>
+
+    </table>
+  </div>
+</section>
+
+<div class="row g-4">
+
+  <div class="col-12 col-lg-8">
+    <section class="category-section h-100">
+      <h2 class="h2 fw-bold">Product Categories</h2>
+      <p>Our online store is divided into the following categories:</p>
+
+      <ul class="category-list list-group mb-3">
+        <li class="list-group-item">💻 Laptops</li>
+        <li class="list-group-item">📱 Smartphones</li>
+        <li class="list-group-item">🎧 Audio</li>
+        <li class="list-group-item">⌚ Accessories</li>
+      </ul>
+
+      <p>
+        Visit the 
+        <a href="details.html" class="link-primary fw-semibold text-decoration-none">
+          Details Page
+        </a> 
+        to explore products and details.
+      </p>
+    </section>
+  </div>
+
+  <div class="col-12 col-lg-4">
+    <aside class="info-box h-100">
+      <h2 class="h3 fw-bold">Why Shop With Us?</h2>
+
+      <p>
+        <b>Fast Delivery</b><br>
+        Receive your products quickly and safely.
+      </p>
+
+      <p>
+        <b>Trusted Suppliers</b><br>
+        We work only with reliable technology brands.
+      </p>
+
+      <p>
+        <b>Best Prices</b><br>
+        Competitive prices for top quality electronics.
+      </p>
+    </aside>
+  </div>
+
+</div>
+
+    <!-- ✅ JSON TABLE -->
+    <section class="mt-5">
+      <h2 class="h2 fw-bold">Product Data (JSON)</h2>
+
+      <input type="text" id="searchBox" class="form-control mb-3" placeholder="Search...">
+
+      <table class="table table-striped">
+        <thead class="table-dark">
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Category ID</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody id="dataTable"></tbody>
+      </table>
+    </section>
+
+</main>
+
+<footer>
+  <div class="container text-center">
+    <p class="mb-1">© 2026 TechStore</p>
+    <p class="mb-0">Contact: info@techstore.com</p>
+  </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- ✅ JS -->
+  <script src="script.js"></script>
+
+</body>
+</html>

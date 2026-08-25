@@ -1,0 +1,12 @@
+1 | Gaming Laptop | 1200€ | LAP-01 | Laptops | ASUS Republic | Stock: 14 | Rating: 4.8 | 2026-03-10
+2 | Business Laptop | 900€ | LAP-02 | Laptops | Lenovo Europe | Stock: 10 | Rating: 4.6 | 2026-03-08
+3 | Student Laptop | 650€ | LAP-03 | Laptops | Acer Tech | Stock: 18 | Rating: 4.4 | 2026-03-05
+4 | Smartphone X | 900€ | PHN-01 | Smartphones | Samsung Mobile | Stock: 20 | Rating: 4.9 | 2026-03-09
+5 | Smartphone Lite | 550€ | PHN-02 | Smartphones | Samsung Mobile | Stock: 25 | Rating: 4.5 | 2026-03-07
+6 | Smartphone Pro Max | 1300€ | PHN-03 | Smartphones | Apple Distribution | Stock: 8 | Rating: 5.0 | 2026-03-11
+7 | Wireless Headphones | 200€ | AUD-01 | Audio | Sony Audio | Stock: 30 | Rating: 4.7 | 2026-03-06
+8 | Bluetooth Speaker | 150€ | AUD-02 | Audio | Sony Audio | Stock: 16 | Rating: 4.5 | 2026-03-04
+9 | Gaming Headset | 180€ | AUD-03 | Audio | Logitech Gaming | Stock: 12 | Rating: 4.6 | 2026-03-10
+10 | Smart Watch | 250€ | ACC-01 | Accessories | Huawei Devices | Stock: 19 | Rating: 4.4 | 2026-03-08
+11 | Wireless Mouse | 50€ | ACC-02 | Accessories | Logitech Europe | Stock: 40 | Rating: 4.3 | 2026-03-03
+12 | Mechanical Keyboard | 120€ | ACC-03 | Accessories | Logitech Europe | Stock: 22 | Rating: 4.8 | 2026-03-02
