@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "1234",
+      "fullName": "Administrator"
+    },
+    {
+      "id": 2,
+      "username": "student",
+      "password": "erasmus",
+      "fullName": "Student User"
+    },
+    {
+      "id": 3,
+      "username": "techstore",
+      "password": "store123",
+      "fullName": "TechStore Manager"
+    }
+  ]
+}

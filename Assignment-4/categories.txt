@@ -1,0 +1,4 @@
+1 | Laptops | High performance laptops for gaming, work and study
+2 | Smartphones | Modern smartphones with powerful features and stylish design
+3 | Audio | Sound devices including headphones, speakers and gaming headsets
+4 | Accessories | Useful technology accessories and smart devices
